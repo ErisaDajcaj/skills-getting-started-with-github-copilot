@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
           participantsHTML = `
             <div class="participants-section">
               <strong>Participants:</strong>
-              <ul class="participants-list">
+              <ul class="participants-list" style="margin-left: 0; padding-left: 1.5em;">
                 ${details.participants
                   .map(
                     (participant) =>
